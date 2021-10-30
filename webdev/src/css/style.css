@@ -1,0 +1,21 @@
+@import "./layout/header.css";
+@import "./layout/main.css";
+@import "./buttons.css";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: 0.7s cubic-bezier(0.42, 0.97, 0.52, 1.49);
+}
+
+html {
+  color: white;
+  background-color: rgb(37, 37, 37);
+}
+body {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.329), transparent);
+}
+ul {
+  list-style: none;
+}

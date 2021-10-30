@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0 auto 1vh auto;
+  width: 95%;
+  height: 14vh;
+  border-bottom: 1px solid crimson;
+  border-left: 1px solid crimson;
+  border-right: 1px solid crimson;
+  background: rgba(0, 0, 0, 0.329);
+}
+
+.projectInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 5%;
+  width: 75%;
+  height: 90%;
+}
+
+.systemInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  height: 100%;
+}
